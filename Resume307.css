@@ -1,0 +1,60 @@
+
+body {background-color: palegoldenrod;}
+
+h1 {color: indianred;
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	word-spacing: 10px;
+	letter-spacing: 3px;
+	background-image: url("banner4.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;}
+
+h2 {font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	word-spacing: 3px;
+	letter-spacing: -2px;
+	text-decoration: underline;
+	text-align: center;}
+
+h3 {font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	word-spacing: 1px;
+	letter-spacing: -2px;
+	text-align: center;}
+
+p {font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	word-spacing: -1px;
+	letter-spacing: 0px;
+	text-align: center;}
+
+ul {font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	text-align: center;
+	list-style-image: url('flower.png');
+	list-style-type: none;
+	padding: 0;
+	}
+
+/* unvisited link */
+a:link {color: deeppink;}
+
+/* visited link */
+a:visited {color: darkmagenta;}
+
+/* mouse over link */
+a:hover {color: cadetblue;}
+
+li {text-align: center;}
+
+li::before {content: url('flower.png');}
+
+.center {display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 20%;}
+
