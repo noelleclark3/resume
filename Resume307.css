@@ -1,3 +1,81 @@
+#Layout {
+	display: grid;
+		}
+
+#AboutMeContact{
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	border-style: double;
+	background-color: beige;
+}
+
+#Skills {
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border-style: double;
+	background-color: beige;
+}
+
+#Education {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	border-style: double;
+	background-color: lavenderblush;
+}
+
+#JMU {
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	border-style: double;
+	background-color: lavenderblush;
+}
+
+#SCHS {
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border-style: double;
+	background-color: lavenderblush;
+}
+
+#Experience {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	border-style: double;
+	background-color: aliceblue;
+}
+
+#Jobs1 {
+	grid-row-start: 2;
+	grid-row-end: 4;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	border-style: double;
+	background-color: aliceblue;
+}
+
+#Jobs2 {
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	border-style: double;
+	background-color: aliceblue;
+}
+
+
+
 
 body {background-color: palegoldenrod;}
 
@@ -35,7 +113,6 @@ ul {font-family: 'Quicksand', sans-serif;
 	word-spacing: 1px;
 	letter-spacing: 1px;
 	text-align: center;
-	list-style-image: url('flower.png');
 	list-style-type: none;
 	padding: 0;
 	}
